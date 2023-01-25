@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4330880-8ce6-4c79-8dba-10453772d6c6" name="Changes" comment="Calc Kata">
-      <change beforePath="$PROJECT_DIR$/src/RomanNumeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanNumeral.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4330880-8ce6-4c79-8dba-10453772d6c6" name="Changes" comment="Calc Kata" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +76,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674641498961</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Calc Kata">
+      <created>1674641791543</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674641791543</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Calc Kata">
+      <created>1674641953339</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674641953339</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Calc Kata">
+      <created>1674642023298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674642023298</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
