@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Введите нужную операцию: ");
         var strOp = s.nextLine();
         List<String> symbolList = new ArrayList<>(Arrays.asList(strOp.split(" ")));
-        if((Roman.isRoman(symbolList.get(0)) && !(Roman.isRoman(symbolList.get(2))))) {
+        if((Roman.isRoman(symbolList.get(0)) && !(Roman.isRoman(symbolList.get(2)))) || !(Roman.isRoman(symbolList.get(0)) && Roman.isRoman(symbolList.get(2)))) {
             throw new ScannerException("Оба числа должны быть либо римскими, либо арабскими");
         }
         if(symbolList.size() > 3) {
