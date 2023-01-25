@@ -1,5 +1,5 @@
 import java.util.*;
-public class IntegerConverter {
+class IntegerConverter {
     public static String intToRoman(int number) {
         if (number >= 4000 || number <= 0)
             return null;
