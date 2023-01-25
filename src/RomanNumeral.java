@@ -8,7 +8,7 @@ public enum RomanNumeral {
     XL(40), L(50), XC(90), C(100),
     CD(400), D(500), CM(900), M(1000);
 
-    private final int value;
+    private int value;
 
     RomanNumeral(int value) {
         this.value = value;
