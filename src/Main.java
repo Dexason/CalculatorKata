@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws ScannerException {
-        calc();
-    }
-
-    public static String calc() throws ScannerException {
         Scanner s = new Scanner(System.in);
         System.out.println("Введите нужную операцию: ");
         var strOp = s.nextLine();
+        calc(strOp);
+    }
+
+    public static String calc(String strOp) throws ScannerException {
         List<String> symbolList = new ArrayList<>(Arrays.asList(strOp.split(" ")));
         if((Roman.isRoman(symbolList.get(0)) && !(Roman.isRoman(symbolList.get(2)))) || (!Roman.isRoman(symbolList.get(0)) && Roman.isRoman(symbolList.get(2)))) {
             throw new ScannerException("Оба числа должны быть либо римскими, либо арабскими");
